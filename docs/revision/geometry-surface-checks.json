@@ -1,0 +1,142 @@
+{
+  "checkedAt": "2026-10-16T16:57:03.894Z",
+  "result": "passed",
+  "samples": 1024,
+  "baselineBeforeRepair": {
+    "sampling": "1024 longitudinal samples; v -0.9..0.9 in 0.1 increments; positive face",
+    "heroReversedSamples": 317,
+    "heroMinimumRawJacobian": -6.6964444485054795,
+    "heroMaximumNormalStepDegrees": 17.23518797842409,
+    "waveMaximumPositionStep": 0.8652881272222201
+  },
+  "faceChecks": [
+    {
+      "pose": "hero",
+      "minimumJacobianRatio": 0.5829865601919821,
+      "reversedSamples": 0,
+      "baselineSamplingReversedSamples": 0,
+      "baselineSamplingMinimumRawJacobian": 3.335008829184153,
+      "worst": {
+        "u": 0.4609375,
+        "v": 0.95,
+        "side": -1
+      }
+    },
+    {
+      "pose": "wave",
+      "minimumJacobianRatio": 0.39433806804178384,
+      "reversedSamples": 0,
+      "baselineSamplingReversedSamples": 0,
+      "baselineSamplingMinimumRawJacobian": 34.574506052973774,
+      "worst": {
+        "u": 0.478515625,
+        "v": 0.95,
+        "side": 1
+      }
+    },
+    {
+      "pose": "closing",
+      "minimumJacobianRatio": 0.3573749958502899,
+      "reversedSamples": 0,
+      "baselineSamplingReversedSamples": 0,
+      "baselineSamplingMinimumRawJacobian": 31.24778780151448,
+      "worst": {
+        "u": 0.0341796875,
+        "v": 0.95,
+        "side": 1
+      }
+    }
+  ],
+  "visibleIntermediateChecks": [
+    {
+      "fraction": 0.25,
+      "visibleSamples": 56454,
+      "reversedSamples": 0,
+      "minimumRawJacobian": 2.049908095739521,
+      "worst": {
+        "u": 0.9677734375,
+        "v": -0.95,
+        "side": 1,
+        "worldY": 0.12833839568319627
+      }
+    },
+    {
+      "fraction": 0.5,
+      "visibleSamples": 51691,
+      "reversedSamples": 0,
+      "minimumRawJacobian": 3.875733763177912,
+      "worst": {
+        "u": 0.943359375,
+        "v": 0.95,
+        "side": 1,
+        "worldY": -1.763321275848939
+      }
+    },
+    {
+      "fraction": 0.75,
+      "visibleSamples": 49639,
+      "reversedSamples": 0,
+      "minimumRawJacobian": 19.816416772002917,
+      "worst": {
+        "u": 0.474609375,
+        "v": 0.95,
+        "side": 1,
+        "worldY": 0.1543556268774252
+      }
+    }
+  ],
+  "stageFloorCutoffY": -2.615,
+  "adjacent": [
+    {
+      "pose": "hero",
+      "maximumPositionStep": 0.027722430927430278,
+      "maximumNormalStepDegrees": 3.776144713924791,
+      "worstNormalStep": {
+        "u": 0.7734375,
+        "q": 0.75,
+        "maxWorldY": -2.055138349533081
+      }
+    },
+    {
+      "pose": "spatial",
+      "maximumPositionStep": 0.027722430927430278,
+      "maximumNormalStepDegrees": 3.776144713924791,
+      "worstNormalStep": {
+        "u": 0.7734375,
+        "q": 0.75,
+        "maxWorldY": -2.055138349533081
+      }
+    },
+    {
+      "pose": "unfold",
+      "maximumPositionStep": 0.0717550995517618,
+      "maximumNormalStepDegrees": 65.88758090826116,
+      "worstNormalStep": {
+        "u": 0.7666015625,
+        "q": 0.4583333333333333,
+        "maxWorldY": -5.487259387969971
+      }
+    },
+    {
+      "pose": "wave",
+      "maximumPositionStep": 0.1338222536082074,
+      "maximumNormalStepDegrees": 5.670777621567118,
+      "worstNormalStep": {
+        "u": 0.478515625,
+        "q": 0,
+        "maxWorldY": 0.24083827435970306
+      }
+    },
+    {
+      "pose": "closing",
+      "maximumPositionStep": 0.12961618330231164,
+      "maximumNormalStepDegrees": 11.768573722239072,
+      "worstNormalStep": {
+        "u": 0.0341796875,
+        "q": 0,
+        "maxWorldY": 0.30503812432289124
+      }
+    }
+  ],
+  "limitations": "Local sweep foldover and frame continuity checks; nonlocal occlusion and interpolated poses also require visual review. Interpolated return remains concealed below the stage floor."
+}

@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-10-16T17:12:52.821Z",
+  "result": "passed",
+  "browser": "155.0.8059.79",
+  "url": "http://127.0.0.1:4174/",
+  "assertions": [
+    "Production scene ready",
+    "Exactly one canvas",
+    "No development capture API",
+    "Honest local query boundary",
+    "Surface chapter navigation"
+  ],
+  "errors": [],
+  "failedResponses": [],
+  "resources": [
+    {
+      "name": "http://127.0.0.1:4174/images/form.webp",
+      "encodedBodySize": 31602,
+      "transferSize": 31902
+    },
+    {
+      "name": "http://127.0.0.1:4174/assets/index-BOGHvDqE.js",
+      "encodedBodySize": 222859,
+      "transferSize": 223159
+    },
+    {
+      "name": "http://127.0.0.1:4174/assets/rolldown-runtime-XKyaHtl9.js",
+      "encodedBodySize": 726,
+      "transferSize": 1026
+    },
+    {
+      "name": "http://127.0.0.1:4174/assets/index-yspjexc8.css",
+      "encodedBodySize": 3218,
+      "transferSize": 3518
+    },
+    {
+      "name": "http://127.0.0.1:4174/assets/SceneCanvas-B6bnIohO.js",
+      "encodedBodySize": 348036,
+      "transferSize": 348336
+    },
+    {
+      "name": "http://127.0.0.1:4174/images/grain.webp",
+      "encodedBodySize": 4374,
+      "transferSize": 4674
+    },
+    {
+      "name": "http://127.0.0.1:4174/images/architecture-v2.webp",
+      "encodedBodySize": 59166,
+      "transferSize": 59466
+    },
+    {
+      "name": "http://127.0.0.1:4174/favicon.svg",
+      "encodedBodySize": 327,
+      "transferSize": 627
+    },
+    {
+      "name": "http://127.0.0.1:4174/models/ribbon.glb",
+      "encodedBodySize": 3516600,
+      "transferSize": 3516900
+    },
+    {
+      "name": "http://127.0.0.1:4174/images/surface.webp",
+      "encodedBodySize": 18714,
+      "transferSize": 19014
+    },
+    {
+      "name": "http://127.0.0.1:4174/images/stillness.webp",
+      "encodedBodySize": 34604,
+      "transferSize": 34904
+    }
+  ],
+  "limitations": "One local production build on installed Chrome. Transfer bytes reflect local preview server settings."
+}

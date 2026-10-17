@@ -1,0 +1,37 @@
+{
+  "asset": "public/models/ribbon.glb",
+  "byteLength": 3617352,
+  "vertices": 25137,
+  "triangles": 49152,
+  "morphTargets": [
+    "spatial",
+    "unfold",
+    "wave",
+    "closing"
+  ],
+  "bounds": {
+    "min": [
+      -16.98221778869629,
+      -7.55463171005249,
+      -9.897823333740234
+    ],
+    "max": [
+      16.884096145629883,
+      2.515115261077881,
+      9.199996948242188
+    ]
+  },
+  "heroBounds": {
+    "min": [
+      -3.8970117568969727,
+      -2.540278673171997,
+      -2.226646661758423
+    ],
+    "max": [
+      4.185706615447998,
+      1.4354556798934937,
+      2.472644805908203
+    ]
+  },
+  "authoring": "Periodic asymmetric shoulder and low-fold centerline; cupped solid ribbon with continuous corresponding poses"
+}

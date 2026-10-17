@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-16T16:56:52.167Z",
+  "result": "passed",
+  "midpointError": 7.152557373046875e-7,
+  "poses": [
+    {
+      "pose": "hero",
+      "vertices": 12593,
+      "maxNormalError": 4.772604644820433e-8,
+      "maxSeamError": 1.1920928955078125e-7
+    },
+    {
+      "pose": "spatial",
+      "vertices": 12593,
+      "maxNormalError": 4.772604644820433e-8,
+      "maxSeamError": 1.1920928955078125e-7
+    },
+    {
+      "pose": "unfold",
+      "vertices": 12593,
+      "maxNormalError": 4.660633190489705e-8,
+      "maxSeamError": 2.9802322387695312e-8
+    },
+    {
+      "pose": "wave",
+      "vertices": 12593,
+      "maxNormalError": 4.1531817984719055e-8,
+      "maxSeamError": 9.5367431640625e-7
+    },
+    {
+      "pose": "closing",
+      "vertices": 12593,
+      "maxNormalError": 4.733493130792965e-8,
+      "maxSeamError": 1.1920928955078125e-7
+    }
+  ],
+  "limitations": "Numeric topology/normal invariants; visible self-intersections require the independent browser pose review."
+}

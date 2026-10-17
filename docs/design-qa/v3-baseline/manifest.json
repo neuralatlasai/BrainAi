@@ -1,0 +1,146 @@
+{
+  "preparedAt": "2026-10-16T17:41:54.552732+00:00",
+  "sourceSha256": "4d1341330966d5f355bf9b65116c6d57e687e11f3cdbbab375d8a80f213fd19d",
+  "captures": [
+    {
+      "state": "form",
+      "source": "assets\\28a9ff7c-047d-4be8-b908-d6fcd7c1cdda.png",
+      "sourceCrop": [
+        0,
+        0,
+        1024,
+        605
+      ],
+      "sourcePanelPixels": [
+        1024,
+        605
+      ],
+      "implementation": "docs\\revision\\v3-baseline\\form.png",
+      "implementationPixels": [
+        1024,
+        605
+      ],
+      "cssViewport": [
+        1024,
+        605
+      ],
+      "deviceScaleFactor": 1,
+      "comparison": "docs\\design-qa\\v3-baseline\\form-comparison.png",
+      "normalization": "Both panels fitted proportionally in 1024x605 slots; source nonhero panels letterboxed, no stretching.",
+      "implementationSha256": "28b17de077ce357cca4a6d6eb3b3514c67188829fc14d8e0a15441f349f87b05",
+      "comparisonSha256": "de17cb2ebcc23496685213fb3e5f5bb303fd332455c322a53b64a50fffd63918"
+    },
+    {
+      "state": "space",
+      "source": "assets\\28a9ff7c-047d-4be8-b908-d6fcd7c1cdda.png",
+      "sourceCrop": [
+        0,
+        605,
+        1024,
+        975
+      ],
+      "sourcePanelPixels": [
+        1024,
+        370
+      ],
+      "implementation": "docs\\revision\\v3-baseline\\space.png",
+      "implementationPixels": [
+        1024,
+        605
+      ],
+      "cssViewport": [
+        1024,
+        605
+      ],
+      "deviceScaleFactor": 1,
+      "comparison": "docs\\design-qa\\v3-baseline\\space-comparison.png",
+      "normalization": "Both panels fitted proportionally in 1024x605 slots; source nonhero panels letterboxed, no stretching.",
+      "implementationSha256": "69b51043203866cffeeb7f363390c7445fc9ceec717873a5d5f321b7a2117cb8",
+      "comparisonSha256": "5821c5e7b966c4bf13c7f0e99a3ebbc257d0733af7421c3c8c7656a556b9b5d3"
+    },
+    {
+      "state": "surface",
+      "source": "assets\\28a9ff7c-047d-4be8-b908-d6fcd7c1cdda.png",
+      "sourceCrop": [
+        0,
+        975,
+        1024,
+        1305
+      ],
+      "sourcePanelPixels": [
+        1024,
+        330
+      ],
+      "implementation": "docs\\revision\\v3-baseline\\surface.png",
+      "implementationPixels": [
+        1024,
+        605
+      ],
+      "cssViewport": [
+        1024,
+        605
+      ],
+      "deviceScaleFactor": 1,
+      "comparison": "docs\\design-qa\\v3-baseline\\surface-comparison.png",
+      "normalization": "Both panels fitted proportionally in 1024x605 slots; source nonhero panels letterboxed, no stretching.",
+      "implementationSha256": "88077bd8d05420120914e7564b470825fb50673a115c1408779d873eb2eb6712",
+      "comparisonSha256": "4b2c95fbccf40858efb2896332e95384442c9cbb263b82d19cf3065310573f02"
+    },
+    {
+      "state": "stillness",
+      "source": "assets\\28a9ff7c-047d-4be8-b908-d6fcd7c1cdda.png",
+      "sourceCrop": [
+        0,
+        1305,
+        1024,
+        1536
+      ],
+      "sourcePanelPixels": [
+        1024,
+        231
+      ],
+      "implementation": "docs\\revision\\v3-baseline\\stillness.png",
+      "implementationPixels": [
+        1024,
+        605
+      ],
+      "cssViewport": [
+        1024,
+        605
+      ],
+      "deviceScaleFactor": 1,
+      "comparison": "docs\\design-qa\\v3-baseline\\stillness-comparison.png",
+      "normalization": "Both panels fitted proportionally in 1024x605 slots; source nonhero panels letterboxed, no stretching.",
+      "implementationSha256": "7fab2feab8981981d4c86d8911cd8664f8d98f2275fbeba2442c95467b1c8c8e",
+      "comparisonSha256": "2e5d5cbd65291c4668e921fc79dd418093c7f718efa7a41b714dde6a64cc0627"
+    }
+  ],
+  "focusedComparisons": [
+    {
+      "comparison": "docs\\design-qa\\v3-baseline\\header-mark-comparison.png",
+      "method": "source/implementation exact 80x90 header crop, enlarged 3x",
+      "sha256": "bf372e0532b6d1a5b9d72c298e29fa0ff9c289b31d681d28f9c94936ba58b8e6"
+    },
+    {
+      "comparison": "docs\\design-qa\\v3-baseline\\material-right-band-comparison.png",
+      "method": "corresponding right-band 170x190 detail crops, enlarged 2x",
+      "sha256": "e461b463b98b45c2a236ab05a5d7066e0bd86972a8abdd099aa14ec7eb117fd6"
+    },
+    {
+      "comparison": "docs\\design-qa\\v3-baseline\\closing-mark-comparison.png",
+      "method": "source mark125x135; rendered1440x960 mark crop120x160; proportional fit, size not judged from enlarged crops",
+      "sha256": "c0de057a7d560fa88f8d13c5fb32e584b3e6c6e49d18219cb382cb3e5cef5e7e"
+    }
+  ],
+  "closingUiSnapshot": {
+    "path": "docs\\design-qa\\v3-baseline\\closing-ui-1440x960.png",
+    "sha256": "8280658db537975c0669424c32c1d1575d8156b11c2f7bd47e3560c7d5b33cda",
+    "source": "docs\\review\\desktop-stillness.png",
+    "viewport": [
+      1440,
+      960
+    ],
+    "density": 1,
+    "limitation": "Uses capture-review state-correct screenshot for closing identity; matched1024 capture has stale DOM UI state."
+  }
+}

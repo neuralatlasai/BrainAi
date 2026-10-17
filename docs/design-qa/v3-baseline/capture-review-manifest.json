@@ -1,0 +1,12 @@
+{
+  "capturedAt": "2026-10-16T17:38:46.324Z",
+  "browser": "155.0.8059.79",
+  "backend": "webgpu",
+  "errors": [],
+  "frames": {
+    "samples": 580,
+    "medianMs": 18.69999998807907,
+    "p95Ms": 46.79999999701977
+  },
+  "limitations": "One local headless browser with native GPU. Includes capture/resizing work; no physical-device or all-device FPS claim."
+}
